@@ -1,0 +1,46 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.2rem 0;
+}
+
+.headerContainer-img {
+  width: 200px;
+}
+
+.headerContainer-btn {
+  display: flex;
+  align-items: center;
+}
+
+.headerContainer-experi {
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.headerContainer-experi:hover {
+  opacity: 0.5;
+}
+
+.headerContainer-experi i {
+  font-size: 1.3rem;
+}
+
+.headerContainer-experi span {
+  font-size: 1.2rem;
+}
+
+.headerContainer-btn button {
+  border-radius: 20px;
+  padding: 0.7rem 1rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.headerContainer-btn button:hover {
+  opacity: 0.8;
+}
