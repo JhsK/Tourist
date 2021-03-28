@@ -58,7 +58,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .navContainer li {
@@ -68,9 +68,34 @@ ul {
   padding: 0.7rem 2.5rem 0.7rem 0.5rem;
   margin: 0 1.5rem;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .navContainer li:hover {
   background-color: #000;
   color: #fff;
+}
+
+/* sceiont 1 Css */
+.sectionContainer1 {
+  background-color: #eafaf4;
+  margin-right: calc(100% / 4.9);
+  margin-left: calc(100% / 4.9);
+  height: 350px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.sectionContainer1-title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 50px;
+  padding-top: 5rem;
+  margin-right: 3rem;
+}
+
+.sectionContainer1 img {
+  width: 400px;
 }
