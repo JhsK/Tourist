@@ -78,7 +78,7 @@ nav {
 }
 
 .navContainer li {
-  width: 150px;
+  width: 13%;
   border-radius: 10px;
   border: solid 1px #000;
   padding: 0.7rem 2.5rem 0.7rem 0.5rem;
@@ -149,5 +149,68 @@ section {
 @media (min-width: 1200px) {
   .inner {
     max-width: 1200px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .headerContainer {
+    justify-content: space-between;
+  }
+
+  .navContainer li {
+  }
+
+  .sectionContainer1-title {
+    font-size: 1.7rem;
+  }
+
+  .sectionContainer1 img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 890px) {
+  .sectionContainer1 {
+    justify-content: space-between;
+    padding: 0 1.5rem;
+  }
+
+  .sectionContainer1-title {
+    font-size: 1.2rem;
+  }
+
+  .sectionContainer1 img {
+    width: 350px;
+    padding-top: 2rem;
+  }
+
+  .sectionContainer2-img img {
+    width: 600px;
+  }
+}
+
+@media (max-width: 700px) {
+  .sectionContainer1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .sectionContainer1-title {
+    text-align: center;
+    padding-top: 1.2rem;
+  }
+
+  .sectionContainer1 img {
+    padding-bottom: 1.2rem;
+  }
+
+  .sectionContainer2-info {
+    font-size: 1.5rem;
+  }
+
+  .sectionContainer2-img img {
+    width: 400px;
   }
 }
