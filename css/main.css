@@ -152,6 +152,7 @@ section {
 
 /* arrowBtn Css */
 .arrowBtn {
+  display: none;
   position: relative;
   top: 50px;
   font-size: 2rem;
@@ -212,30 +213,9 @@ section {
 
 @media (max-width: 700px) {
   .navContainer {
-    overflow-x: hidden;
+    overflow-x: none;
     position: relative;
   }
-
-  /* .arrowBtn-left {
-    display: block;
-    position: absolute;
-    top: 6px;
-    left: 10px;
-    font-size: 2rem;
-    font-weight: bold;
-    cursor: pointer;
-    z-index: 1;
-  }
-
-  .arrowBtn-right {
-    display: block;
-    position: absolute;
-    top: 6px;
-    right: 10px;
-    font-size: 2rem;
-    cursor: pointer;
-    z-index: 1;
-  } */
 
   .navContainer-region {
     width: 130px;
@@ -265,6 +245,10 @@ section {
 
   .sectionContainer2-img img {
     width: 400px;
+  }
+
+  .arrowBtn {
+    display: block;
   }
 }
 
