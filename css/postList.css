@@ -1,0 +1,29 @@
+/* section1 - waringMessage Css */
+.waringMessageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.wraningMessage {
+  width: 100%;
+  background-color: #ceffd9;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 0rem;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.waringMessageContainer button {
+  padding: 0.7rem 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  background-color: #3fabae;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
