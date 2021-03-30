@@ -157,9 +157,6 @@ section {
     justify-content: space-between;
   }
 
-  .navContainer li {
-  }
-
   .sectionContainer1-title {
     font-size: 1.7rem;
   }
@@ -190,6 +187,16 @@ section {
 }
 
 @media (max-width: 700px) {
+  .navContainer {
+    overflow-x: hidden;
+  }
+
+  .navContainer li {
+    width: 130px;
+    flex-shrink: 0;
+    margin: 0 1rem;
+  }
+
   .sectionContainer1 {
     flex-direction: column;
     align-items: center;
@@ -212,5 +219,24 @@ section {
 
   .sectionContainer2-img img {
     width: 400px;
+  }
+}
+
+@media (max-width: 470px) {
+  .headerContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .headerContainer-img {
+    margin-bottom: 1.2rem;
+  }
+
+  .sectionContainer2-info {
+    font-size: 1.2rem;
+  }
+
+  .sectionContainer2-img img {
+    width: 300px;
   }
 }
