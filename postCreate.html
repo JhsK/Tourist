@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 일반적인 fabicon 설정 -->
+    <link rel="icon" href="./image/HatchfulExport-All (2)/favicon.png" />
+    <!-- 아이폰용 fabicon 설정 -->
+    <link rel="apple-touch-icon" href="./image/HatchfulExport-All (2)/favicon.png" />
+    <!-- 인터넷 익스플로어용 fabicon 설정 -->
+    <link rel="shortcut icon" tyle="image/x-icon" href="./image/HatchfulExport-All (2)/favicon.png" />    
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/postListCreate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.css">
+    <link rel="stylesheet" href="https://uicdn.toast.com/editor/2.0.0/toastui-editor.min.css">  
+    <title>Tourist</title>
+</head>
+<body>
+    <header>
+        <div class="inner">
+            <div class="headerContainer">
+                <img class="headerContainer-img" src="./image/HatchfulExport-All (2)/header_logo.png" alt="Tourist">
+                <div class="headerContainer-btn">
+                    <div class="headerContainer-experi">
+                        <i class="xi-message-o"></i>
+                        <span><a href="./postList.html">후기</a></span>
+                    </div>
+                    <button>로그인</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="inner">
+            <div class="arrowBtn">
+                <i class="xi-angle-left-min arrowBtn-left"></i>
+                <i class="xi-angle-right-min arrowBtn-right"></i>
+            </div>
+            <ul class="navContainer" data-position=0>
+                <li class="navContainer-region">서울</li>
+                <li class="navContainer-region">인천</li>
+                <li class="navContainer-region">대구</li>
+                <li class="navContainer-region">대전</li>
+                <li class="navContainer-region">부산</li>
+                <li class="navContainer-region">울산</li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div class="inner">
+            <div class="waringMessageContainer">
+                <div class="wraningMessage">
+                    허위사실 및 악의적인 내용이 담긴 게시물은 무단 삭제 처리 될 수 있으니 주의해주세요.
+                </div>
+                <button><a href="./postCreate.html">작성하기</a></button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="inner">
+            <form action="">
+                <input type="text">
+                <button>작성하기</button>
+                <button><a href="./postList.html">취소하기</a></button>
+            </form>
+            <div id="editor"></div>
+        </div>
+    </section>
+    <script src="https://uicdn.toast.com/editor/2.0.0/toastui-editor-all.min.js"></script>
+    <script src="./js/editor.js"></script>
+    <script src="./js/arrowBtn.js"></script>
+</body>
+</html>
