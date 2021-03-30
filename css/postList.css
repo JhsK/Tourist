@@ -27,3 +27,31 @@
   outline: none;
   cursor: pointer;
 }
+
+/* table - 게시물 리스트 Css */
+table {
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+
+td {
+  padding: 1rem 0;
+}
+
+td:nth-child(1) {
+  padding-right: 1.5rem;
+}
+
+.list-header {
+  background-color: #9e9ba0;
+  cursor: unset;
+}
