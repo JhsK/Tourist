@@ -25,7 +25,7 @@ figure {
 .content figure {
   height: 200px;
   background-color: gray;
-  background-image: url("http://tong.visitkorea.or.kr/cms/resource/96/2547096_image2_1.jpg");
+  /* background-image: url("http://tong.visitkorea.or.kr/cms/resource/96/2547096_image2_1.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
