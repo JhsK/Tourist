@@ -19,13 +19,13 @@ figure {
   display: flex;
   flex-direction: column;
   padding: 0 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  height: 300px;
 }
 
 .content figure {
   height: 200px;
   background-color: gray;
-  /* background-image: url("http://tong.visitkorea.or.kr/cms/resource/96/2547096_image2_1.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
