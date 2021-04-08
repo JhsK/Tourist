@@ -63,7 +63,17 @@
     <section>
         <div class="inner">
             <div class="editor">
-                <input type="text" placeholder="제목을 입력하세요">
+                <div class="editorContainer">
+                    <input type="text" name="postTitle" placeholder="제목을 입력하세요">
+                    <select name="score" id="editorContainer-selct">
+                        <option value="">점수를 부여해주세요</option>
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
                 <div id="editor"></div>
                 <div class="editorBtn">
                     <button>작성하기</button>

@@ -57,12 +57,25 @@ td:nth-child(1) {
 }
 
 /* editor 에디터 Css */
-.editor input {
-  width: 100%;
+.editorContainer {
+  display: flex;
+}
+
+.editorContainer input {
+  width: 80%;
   height: 50px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.2rem 0 1.2rem 1rem;
   margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+
+.editorContainer select {
+  width: 19%;
+  height: 50px;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .editorBtn {
