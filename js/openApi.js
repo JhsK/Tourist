@@ -6,7 +6,8 @@ const urlParams = window.location.href;
 let areaCode = 0;
 
 if (urlParams.indexOf("params")) {
-  urlParams[68] ? (areaCode = urlParams.slice(67)) : (areaCode = urlParams[67]);
+  //urlParams[68] ? (areaCode = urlParams.slice(67)) : (areaCode = urlParams[67]);
+  urlParams[69] ? (areaCode = urlParams.slice(68)) : (areaCode = urlParams[68]);
 
   axios
     .get(
