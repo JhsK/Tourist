@@ -10,7 +10,7 @@ if (urlParams.indexOf("params")) {
 
   axios
     .get(
-      `http://api.visitkorea.or.kr/openapi/service/rest/GreenTourService/areaBasedList?ServiceKey=Q3CYAtHS7fxCOqd8Kns3aZJmrmuioRJoSSKZv7GeVPhoVgX8oKevWlLyBT0NGMkHaVWihIRaOwEM2v5CKVqtGA%3D%3D&areaCode=${areaCode}&MobileOS=ETC&MobileApp=Tourist&_type=json`
+      `http://api.visitkorea.or.kr/openapi/service/rest/GreenTourService/areaBasedList?ServiceKey=Q3CYAtHS7fxCOqd8Kns3aZJmrmuioRJoSSKZv7GeVPhoVgX8oKevWlLyBT0NGMkHaVWihIRaOwEM2v5CKVqtGA%3D%3D&areaCode=${areaCode}&MobileOS=ETC&MobileApp=Tourist&numOfRows=15&_type=json`
     )
     .then((result) => {
       const apiItem = result.data.response.body.items.item;
