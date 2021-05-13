@@ -37,6 +37,11 @@ header {
   align-items: center;
 }
 
+.recLabel {
+  margin-right: 2.5rem;
+  cursor: pointer;
+}
+
 .headerContainer-experi {
   margin-right: 3rem;
   cursor: pointer;
