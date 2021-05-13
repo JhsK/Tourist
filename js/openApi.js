@@ -6,8 +6,8 @@ const urlParams = window.location.href;
 let areaCode = 0;
 
 if (urlParams.indexOf("params")) {
-  //urlParams[68] ? (areaCode = urlParams.slice(67)) : (areaCode = urlParams[67]);
-  urlParams[69] ? (areaCode = urlParams.slice(68)) : (areaCode = urlParams[68]);
+  // urlParams[68] ? (areaCode = urlParams.slice(67)) : (areaCode = urlParams[67]);
+  urlParams[67] ? (areaCode = urlParams.slice(66)) : (areaCode = urlParams[66]);
 
   axios
     .get(
@@ -34,7 +34,8 @@ if (urlParams.indexOf("params")) {
         span.innerText = apiItem[i].title;
 
         divContent.addEventListener("click", () => {
-          window.location.href = `http://127.0.0.1:5500/jsp_project/Tourist/locationDetail.html?params=${areaCode}&contentId=${divContent.id}`;
+          //window.location.href = `http://127.0.0.1:5500/jsp_project/Tourist/locationDetail.html?params=${areaCode}&contentId=${divContent.id}`;
+          window.location.href = `http://211.59.144.185:8080/jsp15/Tourist/locationDetail.html?params=${areaCode}&contentId=${divContent.id}`;
         });
       }
 
