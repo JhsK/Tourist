@@ -20,6 +20,7 @@ if (urlParams.indexOf("params")) {
         const span = document.createElement("span");
 
         divContent.classList.add("content");
+        divContent.id = i;
         divContent.appendChild(figure);
         divContent.appendChild(span);
         listContainer.appendChild(divContent);
@@ -30,6 +31,10 @@ if (urlParams.indexOf("params")) {
           ? (figure.style.backgroundImage = `url(${apiItem[i].mainimage})`)
           : (figure.style.backgroundImage = `url('./image/imgReady.png')`);
         span.innerText = apiItem[i].title;
+
+        divContent.addEventListener("click", () => {
+          window.location.href = `http://127.0.0.1:5500/jsp_project/Tourist/locationDetail.html?params=${areaCode}&contentId=${divContent.id}`;
+        });
       }
 
       // let apiTitle = result.data.response.body.items.item[2].title;
